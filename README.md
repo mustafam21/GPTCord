@@ -1,30 +1,46 @@
-# Commands
-/chat [message] - command to chat with the chatGPT bot
+# GPTCord
 
-# OpenAI API
+GPTCord is a discord bot that allows for users to communicate with OpenAI's GPT-3 text-davinci-003 model on discord.
 
-Generated API Key from https://beta.openai.com/account/api-keys
+## Installation
 
-# Discord Bot
+Adding your own OpenAI API key and discord bot token in config.json is required to run the bot after cloning
 
-Launched through the discord developer portal using the bot token: https://discord.com/developers/applications
+```bash
+
+# Clone the repository
+$ git clone https://github.com/MuhammadMustafa21/GPTCord.git
+
+# Go into the repository
+$ cd GPTCord
+
+# Install the required libraries
+$ pip3 install -r requirements.txt
+
+# Run the bot
+$ python3 main.py 
 
 
-# Heroku
-
-Deployed on Heroku by installing the CLI and pushing the repository as a new app: https://dashboard.heroku.com/apps
+```
 
 
-# Config File
-
-The token generated from the developer portal must be stored under discord_bot_token
-
-The API key generated from OpenAI must be stored under openAI_key
 
 
-# Invite Link
 
-https://discord.com/api/oauth2/authorize?client_id=1053863419364773929&permissions=380107814976&scope=bot
+## Usage
 
+Invite the discord bot from https://www.gptcord.live/ or by using your own link
+
+/chat [message] in any text channel 
+
+![](imgs/message.png)
+![](imgs/response.png)
+
+Currently deployed on Heroku
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
 
